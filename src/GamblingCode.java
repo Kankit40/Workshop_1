@@ -7,11 +7,11 @@ public class GamblingCode {
 
         if (outcome == 1){
             System.out.println("You won the bet");
-           temp = outcome + 1;
+           temp = totalamount + 1;
             System.out.println("Total amount is " + temp);
         }else {
             System.out.println("You have lost the game");
-            temp = outcome - 1;
+            temp = totalamount - 1;
             System.out.println("Total amount is " + temp);
         }
     }
