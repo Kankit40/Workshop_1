@@ -4,7 +4,9 @@ public class GamblingCode {
 
         int outcome = (int) (Math.random() * 2);
         int temp = 0;
+        int total =0;
 
+        while (int i = 0; i < 21; i++){
         if (outcome == 1){
             System.out.println("You won the bet");
            temp = outcome + 1;
@@ -14,5 +16,7 @@ public class GamblingCode {
             temp = outcome - 1;
             System.out.println("Total amount is " + temp);
         }
+             total = temp + total;
+            System.out.println("Total amount will be" + total);
     }
 }
